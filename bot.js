@@ -29,7 +29,7 @@ client.user.setGame(`Streming`,"v1Bot")
 });
 
 client.on('ready',  () => {
-  console.log('By : Hady ');
+  console.log('By : Kemuda ');
   console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
   console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -597,7 +597,7 @@ client.on("message", message => {
 client.on('message', message => {
   if (true) {
 if (message.content === '!support') {
-      message.author.send(' |https://discord.gg/T4Q7vXP| لـ أي استفسار').catch(e => console.log(e.stack));
+      message.author.send(' |https://discord.gg/rPfzPq| لـ أي استفسار').catch(e => console.log(e.stack));
 
     }
    } 
@@ -1124,7 +1124,7 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 
 });
 
-client.login('NDgzMDgwMDQ1NzEyMTEzNjY1.DmbBbQ.lP36zb6t9fnqxrZAK5yFd4DFvsw')
+client.login('NTgyNjI4MjU2NDI0MTMyNjE4.XOwq7w.qx9dEUIZcPPECdHmlZfcoI1IIOs')
 
 
 
