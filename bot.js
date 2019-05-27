@@ -46,7 +46,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .addField("Kemuda", true)
       
-      .addField("『مصمم البوت !                    x'1Кemuda .#6334 』", true)
+      .addField("『Oliver in the head』", true)
       
       .addField("『!help^』『اذا تبي جميع الاوامر مع اوامر اضافية』", true)
       
