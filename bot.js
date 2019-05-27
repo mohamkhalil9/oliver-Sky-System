@@ -1124,7 +1124,6 @@ if(!message.guild.member(client.user).hasPermission("MANAGE_MESSAGES")) return m
 
 });
 
-client.login('NTgyNjI4MjU2NDI0MTMyNjE4.XOwq7w.qx9dEUIZcPPECdHmlZfcoI1IIOs')
 
 
 
