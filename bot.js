@@ -44,9 +44,9 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField("Larah", true)
+      .addField("Kemuda", true)
       
-      .addField("『مصمم البوت Larah And Hady Khaled』", true)
+      .addField("『مصمم البوت !                    x'1Кemuda .#6334 』", true)
       
       .addField("『!help^』😘『اذا تبي جميع الاوامر مع اوامر اضافية』😵", true)
       
@@ -989,7 +989,7 @@ client.on("guildMemberAdd", member => {
 }).catch(console.error)
 });
 
-const developers = ["355564423168917525","442670807240671252",""]
+const developers = ["268986012309520386","415142691282616330",""]
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
