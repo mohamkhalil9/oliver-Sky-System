@@ -7,7 +7,7 @@ client.on('message', message => {
     if (message.content === ".help") {
     let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
-  .setFooter(`DgPro`, 'https://cdn.discordapp.com/attachments/505643202053931011/519449304310480907/LastBot.png')
+  .setFooter(`DgPro`, 'https://cdn.discordapp.com/attachments/535863055284830208/582749843160563747/16c197c4c3f0eb808f9bceb6e1075e71.png')
   .setColor("#000000")
   .addField("Done | تــــم" , ":envelope: | :sleuth_or_spy::skin-tone-3:شيك علي في الخاص") // Alpha Codes Ghost
   
@@ -27,7 +27,9 @@ client.on('message', message => {
         **__1-__:books:🧐 بوت عربي🧐:books:
          __2-__:white_check_mark: :part_alternation_mark:️ استخدامه جدا سهل:part_alternation_mark:️:white_check_mark: 
          __3-__:gear:️صيانه كل يوم:gear:️
-         __4-__:money_with_wings: مجاني :money_with_wings:**`)
+         __4-__:money_with_wings: مجاني :money_with_wings:
+         __5-__:arabiccities: !                    x'1Кemuda .#6334 صنع لدى :arabiccities: **`)
+         
    message.author.sendEmbed(embed)
    
    }
